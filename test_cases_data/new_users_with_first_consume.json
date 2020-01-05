@@ -1,0 +1,18 @@
+[
+  {
+    "deviceId": 10,
+    "userId": 10,
+    "time": "2019-01-02 00:00:00",
+    "consume": 20,
+    "wasAlertTriggered": false,
+    "isAtHome": "Y"
+  },
+  {
+    "deviceId": 11,
+    "userId": 11,
+    "time": "2019-01-02 01:00:00",
+    "consume": 10,
+    "wasAlertTriggered": false,
+    "isAtHome": "Y"
+  }
+]
