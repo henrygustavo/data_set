@@ -2,21 +2,21 @@
 
 In this repository, you'll find a dataset(consumes.csv) of simulated consumes for 9 users during the years 2018 and 2019.This dataset has 69194 records of consumption per hour. The original dataset comes from this repository https://github.com/DAIAD/data/blob/master/swm_trialA.zip. This file is inside the directory data_set and has the following fields:
 
- * id: record Id
+ * id: Record Id
 
- * userId: user Id
+ * userId: User Id
  
- * deviceId: device Id
+ * deviceId: Device Id
  
  * time: Time consume (yyyy-MM-dd hh:mm:ss)
  
- * consume: consume in liters
+ * consume: Consume in liters
  
- * totalConsume: accumulated consume
+ * totalConsume: Accumulated consume
  
- * isAtHome: this shows if the user is at home or not and could have the values Y(Yes), N(No), U(Unknown)
+ * isAtHome: This field shows if the user is at home or not and could have the values Y (Yes), N (No), U (Unknown).
  
- * isAnomalous: this field labels the consume as anomalous or not.
+ * isAnomalous: This field labels the consume as anomalous or not.
  
  
 On the other hand, inside of the directory "scenarios", you'll find a list of scenarios extracted from the dataset with their test cases of normal and anomalous consumes. These scenarios are:
