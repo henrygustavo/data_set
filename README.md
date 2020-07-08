@@ -35,7 +35,7 @@ On the other hand, inside of the directory "scenarios", you'll find a list of sc
 
   *	Anomalous High Consume Weekend (AHCWD): These are the consumes per hour between saturday and Sunday where there is a leak due to anomalous consumption The file "anomalous_high_consume_weekend_AHCWD.json" belongs to this scenario and has 48 test cases.
   
-  *	Anomalous Consume Non-Zero (ACNZ): These are the consumes per hour on the days in which during the last 24 hours in a row the water consumption has not stopped registering and there is not at least one hour where the consumption is zero. The file "anomalous_consume_non_zero_ACNZ.json" belongs to this scenario and has 100 test cases.
+  *	Anomalous Consume Non-Zero (ACNZ): These are the consumes per hour on the days in which during the last 24 hours in a row the water consumption has not stopped registering and there is not at least one hour where the consumption is zero. The file "anomalous_consume_non_zero_ACNZ.json" belongs to this scenario and has 96 test cases.
   
   *	Anomalous Consume Similar (ACS): These are the consumes per hour on the days when there are three consecutive consumption with very similar values (+ -1Liter), which is considered anomalous.The file "anomalous_consume_similar_ACS.json" belongs to this scenario and has 32 test cases.
   
