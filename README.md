@@ -19,7 +19,7 @@ In this repository, you'll find a dataset(consumes.csv) of simulated consumes fo
  * isAnomalous: This field labels the consume as anomalous or not. All the test cases has this field and it indicates if the system should trigger (1) or not (0) an alert due to a leakage
  
  
-On the other hand, inside of the directory "scenarios", you'll find a list of scenarios extracted from the dataset with their test cases of normal and anomalous consumes. These scenarios are:
+On the other hand, inside the directory "scenarios" exists a list of scenarios extracted from the dataset with their test cases of normal and anomalous consumes. These scenarios are:
 
   *	Normal Consume Week (NCW): These are the hourly consumptions between Monday and Friday where there is a normal consumption of water without the presence of a leak. The file "normal_consume_week_NCW.json" belongs to this scenario and has 120 test cases.
 
