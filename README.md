@@ -16,7 +16,7 @@ In this repository, you'll find a dataset(consumes.csv) of simulated consumes fo
  
  * isAtHome: This field shows if the user is at home or not and could have the values Y (Yes), N (No), U (Unknown).
  
- * isAnomalous: This field labels the consume as anomalous or not.
+ * isAnomalous: This field labels the consume as anomalous or not. All the test cases has this field and it indicates if the system should trigger (1) or not (0) an alert due to a leakage
  
  
 On the other hand, inside of the directory "scenarios", you'll find a list of scenarios extracted from the dataset with their test cases of normal and anomalous consumes. These scenarios are:
@@ -40,5 +40,3 @@ On the other hand, inside of the directory "scenarios", you'll find a list of sc
   *	Anomalous Consume Similar (ACS): These are the hourly consumptions where there are three consecutive consumptions with very similar values (+ -1Liter), which is considered anomalous.The file "anomalous_consume_similar_ACS.json" belongs to this scenario and has 32 test cases.
   
   *	Anomalous Consume Negative (ACN):These are the hourly consumptions in which during the last 24 hours there has been a negative trend in the accumulated consumption of water(e.g totalConsume in record ids 69192,69193) or a negative consumption has been registered.The file "anomalous_consume_negative_ACN.json" belongs to this scenario and has 68 test cases.
-
-Finally, All the test cases has the field "isAnomalous" and indicates if the system should trigger (1) or not (0) an alert due to a leakage.
