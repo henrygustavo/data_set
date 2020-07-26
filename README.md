@@ -1,6 +1,6 @@
 # Water Consume DataSet and Scenarios
 
-This repository has a dataset(data_set\sconsumes.csv) of simulated consumes for 9 users during the years 2018 and 2019.Also, this one has 69194 records of consumption per hour and the original dataset comes from this repository https://github.com/DAIAD/data/blob/master/swm_trialA.zip.
+This repository has a dataset(data_set\consumes.csv) of simulated consumes for 9 users during the years 2018 and 2019.Also, this one has 69194 records of consumption per hour, however, it's important to mention that the original dataset comes from this repository https://github.com/DAIAD/data/blob/master/swm_trialA.zip.
 
 The dataset has the following fields:
 
@@ -21,7 +21,7 @@ The dataset has the following fields:
  * isAnomalous: This field labels the consume as anomalous (1) or not(0).
  
  
-On the other hand, inside the directory "scenarios" exists a list of scenarios that are the following:
+On the other hand, inside the directory "scenarios" exists a list of scenarios extracted from the "dataset". These scnearios are the following:
 
   *	Normal Consume Week (NCW): These are the hourly consumptions between Monday and Friday where there is a normal consumption of water without the presence of a leak. The file "normal_consume_week_NCW.json" belongs to this scenario and has 120 test cases.
 
