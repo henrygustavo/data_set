@@ -21,7 +21,7 @@ The dataset has the following fields:
  * isAnomalous: This field labels the consume as anomalous (1) or not(0).
  
  
-On the other hand, inside the directory "scenarios" exists a list of scenarios with normal and anomalous consumes. These scenarios are the following:
+On the other hand, inside the directory "scenarios" exists a list of scenarios that are the following:
 
   *	Normal Consume Week (NCW): These are the hourly consumptions between Monday and Friday where there is a normal consumption of water without the presence of a leak. The file "normal_consume_week_NCW.json" belongs to this scenario and has 120 test cases.
 
@@ -42,5 +42,4 @@ On the other hand, inside the directory "scenarios" exists a list of scenarios w
   *	Anomalous Consume Similar (ACS): These are the hourly consumptions where there are three consecutive consumptions with very similar values (+ -1Liter), which is considered anomalous.The file "anomalous_consume_similar_ACS.json" belongs to this scenario and has 32 test cases.
   
   *	Anomalous Consume Negative (ACN):These are the hourly consumptions in which during the last 24 hours there has been a negative trend in the accumulated consumption of water(e.g totalConsume in record ids 69192,69193) or a negative consumption has been registered.The file "anomalous_consume_negative_ACN.json" belongs to this scenario and has 68 test cases.
-  
-   All the test cases has the field "isAnomalous" that indicates if the system should trigger (1) or not (0) an alert due to a leakage.
+  Finally, all the test cases has the field "isAnomalous" that indicates if the system should trigger (1) or not (0) an alert due to a leakage.
