@@ -21,7 +21,7 @@ The dataset has the following fields:
  * isAnomalous: This field labels the consume as anomalous (1) or not(0).
  
  
-On the other hand, inside the directory "scenarios" exists a list of scenarios extracted from the "dataset". These scnearios are the following:
+On the other hand, inside the directory "scenarios" exists a list of scenarios extracted from the "dataset". These scenarios are the following:
 
   *	Normal Consume Week (NCW): These are the hourly consumptions between Monday and Friday where there is a normal consumption of water without the presence of a leak. The file "normal_consume_week_NCW.json" belongs to this scenario and has 120 test cases.
 
