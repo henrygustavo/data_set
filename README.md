@@ -1,7 +1,7 @@
 # Water Consume DataSet and Scenarios
 
-In this repository, you'll find a dataset(consumes.csv) of simulated consumes for 9 users during the years 2018 and 2019.This dataset has 69194 records of consumption per hour. The original dataset comes from this repository https://github.com/DAIAD/data/blob/master/swm_trialA.zip. This file is inside the directory data_set and has the following fields:
-
+This repository has a dataset(data_set\sconsumes.csv) of simulated consumes for 9 users during the years 2018 and 2019.Also, this one has 69194 records of consumption per hour and the original dataset comes from this repository https://github.com/DAIAD/data/blob/master/swm_trialA.zip.
+The dataset has the following fields:
  * id: Record Id
 
  * userId: User Id
@@ -16,7 +16,7 @@ In this repository, you'll find a dataset(consumes.csv) of simulated consumes fo
  
  * isAtHome: This field shows if the user is at home or not and could have the values Y (Yes), N (No), U (Unknown).
  
- * isAnomalous: This field labels the consume as anomalous or not. All the test cases has this field and it indicates if the system should trigger (1) or not (0) an alert due to a leakage
+ * isAnomalous: This field labels the consume as anomalous or not. All the test cases has this field and it indicates if the system should trigger (1) or not (0) an alert due to a leakage.
  
  
 On the other hand, inside the directory "scenarios" exists a list of scenarios extracted from the dataset with their test cases of normal and anomalous consumes. These scenarios are:
