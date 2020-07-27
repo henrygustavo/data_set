@@ -2,6 +2,7 @@
 
 This repository has a dataset(data_set\consumes.csv) of simulated consumes for 9 users during the years 2018 and 2019.Also, this one has 69194 records of consumption per hour, however, 
 there are cases where exist less than 24 records per day.
+
 To simulate anomalous consumption, consumption had to be updated at certain times after 2019, but the data for 2018 were not altered in order to have a historical pattern of behavior that would help us detect any anomalous behavior in 2019.The alterations were made to generate records for the anomalous scenarios and the normal high consume scenario (NHCIAH), for example, for the anomalous non-zero consume scenario (ACNZ), a random value was added to consumption that had zero, and for NHCIAH it was established that the user was within their home having a high consumption.
 
 It's important to mention that the original dataset comes from this repository https://github.com/DAIAD/data/blob/master/swm_trialA.zip.
