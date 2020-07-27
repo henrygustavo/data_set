@@ -1,6 +1,9 @@
 # Water Consume DataSet and Scenarios
 
-This repository has a dataset(data_set\consumes.csv) of simulated consumes for 9 users during the years 2018 and 2019.Also, this one has 69194 records of consumption per hour, however, it's important to mention that the original dataset comes from this repository https://github.com/DAIAD/data/blob/master/swm_trialA.zip.
+This repository has a dataset(data_set\consumes.csv) of simulated consumes for 9 users during the years 2018 and 2019.Also, this one has 69194 records of consumption per hour, however, 
+there are cases where exist less than 24 records per day.To simulate anomalous consumption, consumption had to be updated at certain times after 2019, but the data for 2018 were not altered in order to have a historical pattern of behavior that would help us detect any anomalous behavior in 2019.
+
+It's important to mention that the original dataset comes from this repository https://github.com/DAIAD/data/blob/master/swm_trialA.zip.
 
 The dataset has the following fields:
 
